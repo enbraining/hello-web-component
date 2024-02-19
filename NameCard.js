@@ -1,7 +1,10 @@
 class NameCard extends HTMLElement {
     constructor(){
         super();
-        this.innerHTML = `${this.getAttribute('name')}`;
+        this.innerHTML = `
+            <h3>${this.getAttribute('name')}</h3>
+            <hr>
+        `;
     }
 }
 
