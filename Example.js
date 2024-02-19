@@ -5,4 +5,4 @@ class Example extends HTMLElement {
     }
 }
 
-customElements.define("example", Example);
+customElements.define("Example", Example);
